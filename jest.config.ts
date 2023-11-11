@@ -5,6 +5,7 @@ module.exports = {
   ],
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
+  extensionsToTreatAsEsm: [".ts", ".tsx"],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   transform: {
     '.+\\.ts$': 'ts-jest'
